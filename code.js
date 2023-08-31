@@ -1,10 +1,7 @@
 
-
 var roll_btn=document.getElementById("roll_btn")
 roll_btn.addEventListener("click",function(e){
-    var randomno1=Math.floor(Math.random()*6)+1
-
-
+var randomno1=Math.floor(Math.random()*6)+1
 var randomimg1="images/dice"+randomno1+".png"
 var expr1=document.getElementById("expr1")
 var expr2=document.getElementById("expr2")
@@ -39,8 +36,5 @@ else
         expr1.setAttribute("src",draw)
         expr2.setAttribute("src",draw)
     }
-
-var text=document.getElementById("text")
-text.innerHTML="Click on the Roll Buttun to Roll the Dice."
 })
     
